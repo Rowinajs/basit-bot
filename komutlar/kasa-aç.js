@@ -66,13 +66,13 @@ exports.run = (client, message) => {
 
     ]
     var kasadancikanlar = kasadancikanlar[Math.floor(Math.random(1) * kasadancikanlar.length)]
-    const plasmic  = new Discord.MessageEmbed()
+    const rowina  = new Discord.MessageEmbed()
     .setImage("https://cdn.wallpapersafari.com/40/16/8rTMh6.jpg")
     .setAuthor('', csgopng)
     .setDescription(`${kasadancikanlar}`)
     .setFooter(`Kasayı açan (${message.author.username}) | Kasa Fiyatı: 80$ | Kasadan çıkan bütün ürünler sizde kalmaz sadece eğlence için yapılmış bir komutdur`)
     .setColor("RANDOM")
-    return message.channel.send(plasmic);
+    return message.channel.send(rowina);
 };
 
 exports.conf = {
