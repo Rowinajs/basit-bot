@@ -18,7 +18,7 @@ let motion = new Discord.MessageEmbed()
     ) 
     .addField(
       "Bot Geliştiricisi",
-      `> Bot geliştiricisi ➡ <@790267247456944179> | **Rowina**`
+      `> Bot geliştiricisi ➡ <@252530909469736962> | **Rowina**`
     ) 
     .addField(
       "Sürümler",
