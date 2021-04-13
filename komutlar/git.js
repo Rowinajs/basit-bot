@@ -38,10 +38,10 @@ let kabul = new Discord.MessageEmbed()
 message.channel.send(kabul)
 message.member.voice.setChannel(kullanıcı.voice.channel.id)
 } else {
-let striga = new Discord.MessageEmbed()
+let rowina = new Discord.MessageEmbed()
 .setColor("0x800d0d")
 .setDescription(`${kullanıcı} Odaya Gelmeni Onaylamadı.`)
-message.channel.send(striga)
+message.channel.send(rowina)
 }
 })}
 
