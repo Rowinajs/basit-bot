@@ -23,7 +23,7 @@ exports.run = (client, message, guild) => {
   
     .setFooter(".", "[link](https://discordapp.com/)")
 
-    .setFooter("Coded By Rowina Star ☆#0999");
+    .setFooter("Coded By Rowina ✬#2015");
 
   message.channel.send(fwhy);
 };
