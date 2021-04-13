@@ -19,7 +19,7 @@ const unban = new Discord.MessageEmbed()
 .setDescription(`**• Striga Moderation ! \n\n• Banı Kaldıran Yetkili :`+ message.member +`\n• Banı Kaldırılan Kullanıcı : <@${unbanid}>**`)
 .setTimestamp()
 .setImage('https://media2.giphy.com/media/P4bLhbzfxDaM0/giphy.gif?cid=790b7611927a1206a32a987fa98e88a78b2a26dcabe41fd6&rid=giphy.gif')
-.setFooter('ALİEN YAZILIM #FREE')
+.setFooter('Rowina Code')
 client.channels.cache.get(ayarlar.BanKanal).send(unban)
 
   
