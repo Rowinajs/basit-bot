@@ -5,10 +5,10 @@ exports.run = function(bot, message) {
     new Discord.MessageEmbed()
       .setColor("BLACK")
       .setTitle("Atamızın Resmi: ")
-      .setImage(Plasmic())
+      .setImage(Rowina())
   );
 
-  function Plasmic() {
+  function Rowina() {
     var rand = [
       "https://i.pinimg.com/736x/74/09/ae/7409aeffe413d5d638530897cc0d197f.jpg",
       "https://i.pinimg.com/originals/05/61/d5/0561d5930d772b9f9464a9af2b3d670d.jpg",
