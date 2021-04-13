@@ -11,11 +11,11 @@ module.exports.run = async (client, message, args) => {
 
 //-------------------------------------------------------------------------------\\
   
-if(!["794871563698569237"].some(role => message.member.roles.cache.get(role)) && (!message.member.hasPermission("ADMINISTRATOR"))) 
+if(!["KOMUTU KULLANCAK ROL ID"].some(role => message.member.roles.cache.get(role)) && (!message.member.hasPermission("ADMINISTRATOR"))) 
 return message.channel.send(new MessageEmbed().setDescription(`${message.author} Komutu kullanmak için yetkin bulunmamakta.`).setColor('0x800d0d').setAuthor(message.member.displayName, message.author.avatarURL({ dynamic: true })).setTimestamp()).then(x => x.delete({timeout: 5000}));
   
-const cezalırol = '795052799700369429'//Jail rolü
-const jaillog = message.guild.channels.cache.find(c => c.id === '795052977240145970')//Jail Log
+const cezalırol = 'ID'//Jail rolü
+const jaillog = message.guild.channels.cache.find(c => c.id === 'ID')//Jail Log
 
 //-------------------------------------------------------------------------------\\
 
@@ -65,7 +65,8 @@ db.set(`süreJail_${message.mentions.users.first().id + message.guild.id}`, zama
         }
         let aylar = tumaylar; 
    let muteler = jdb.get(`tempmute`) || [];
-                if (!muteler.some(j => j.id == kullanici.id)) {
+                i
+                f (!muteler.some(j => j.id == kullanici.id)) {
                   kdb.add(`kullanici.${message.author.id}.mute`, 1);
                     db.add('case', 1)
                     const numara = await db.fetch('case')
