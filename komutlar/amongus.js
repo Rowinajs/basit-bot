@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
 const Discord = require("discord.js");
 
-exports.run = async (client, message, args) => {//'Vu4ll#0586
+exports.run = async (client, message, args) => {//Rowina ✬#2015
   let user = message.mentions.users.first();
   let imp = [true, false];
   let imposter = imp[Math.floor(Math.random() * imp.length)];
@@ -27,7 +27,7 @@ exports.run = async (client, message, args) => {//'Vu4ll#0586
   message.channel.send(embed);
 };
 
-exports.conf = {//'Vu4ll#0586
+exports.conf = {//Rowina ✬#2015
   enabled: true,
   guildOnly: false,
   aliases: ["eject"],
