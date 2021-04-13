@@ -2,7 +2,7 @@ const { MessageEmbed } = require("discord.js");
 //
 module.exports.run = (client, message, args) => {
 //  
-  if(!['791418093989265434'].some(role => message.member.roles.cache.get(role)) && !message.member.hasPermission('ADMINISTRATOR')) return message.channel.send(new MessageEmbed().setColor('RED').setAuthor(`Başarısız !`).setDescription(`Bu Komutu Kullanmak İçin Yetkiniz Bulunmamakta.`))
+  if(!['KULLANCAK ROLÜN İDSİ'].some(role => message.member.roles.cache.get(role)) && !message.member.hasPermission('ADMINISTRATOR')) return message.channel.send(new MessageEmbed().setColor('RED').setAuthor(`Başarısız !`).setDescription(`Bu Komutu Kullanmak İçin Yetkiniz Bulunmamakta.`))
 
 
   let tag = "TAG";
