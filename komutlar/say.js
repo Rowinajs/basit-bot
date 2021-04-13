@@ -5,7 +5,7 @@ module.exports.run = (client, message, args) => {
   if(!['KULLANCAK ROLÜN İDSİ'].some(role => message.member.roles.cache.get(role)) && !message.member.hasPermission('ADMINISTRATOR')) return message.channel.send(new MessageEmbed().setColor('RED').setAuthor(`Başarısız !`).setDescription(`Bu Komutu Kullanmak İçin Yetkiniz Bulunmamakta.`))
 
 
-  let tag = "TAG";
+ 
   const toplam = message.guild.memberCount
   const ses = message.guild.channels.cache.filter(channel => channel.type == "voice").map(channel => channel.members.size).reduce((a, b) => a + b) 
 
