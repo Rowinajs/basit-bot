@@ -83,7 +83,7 @@ exports.run = async (bot, msg, args) => {
         
         msg.channel.send(uembed)
   
-        .addField("Coded By Rowina Star#0999")
+        .addField("Coded By Rowina ✬#2015")
         
   
   
