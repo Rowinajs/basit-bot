@@ -4,7 +4,6 @@ const client = new Discord.Client();
 exports.run = (client, message, args) => {
   message.channel.send("Topa Vuruldu..").then(message => {
     var red = [
-      //synex //sharpen
       "``Tam 90'a Vurdun!`` :first_place:",
       "``Top Uzaya Çıktı!`` :flushed:",
       "``Penaltıyı Gole Çevirdin! (Hawli)`` :sunglasses:",
@@ -15,7 +14,7 @@ exports.run = (client, message, args) => {
       "``Hey, Topa Vuramadın. Hala Önünde Duruyor!`` :zany_face:",
       "``Top Sahadan Çıktı! Topu Göremiyorum.`` :face_with_monocle:"
     ];
-    var red = red[Math.floor(Math.random() * red.length)]; //Red Code
+    var red = red[Math.floor(Math.random() * red.length)]; //Rowina Code
     message.edit(`${red}`);
   });
 };
