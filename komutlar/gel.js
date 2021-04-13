@@ -39,10 +39,10 @@ let kabul = new Discord.MessageEmbed()
 message.channel.send(kabul)
 kullanıcı.voice.setChannel(message.member.voice.channel.id)
 } else {
-let striga = new Discord.MessageEmbed()
+let rowina = new Discord.MessageEmbed()
 .setColor("0x800d0d")
 .setDescription(`${kullanıcı} Odaya Çekilme Teklifini Reddetti`)
-message.channel.send(striga)
+message.channel.send(rowina)
 }
 })
 }
